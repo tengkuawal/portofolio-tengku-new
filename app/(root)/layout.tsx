@@ -3,6 +3,7 @@ import { MainNav } from "@/components/common/main-nav";
 import { ModeToggle } from "@/components/common/mode-toggle";
 import { SiteFooter } from "@/components/common/site-footer";
 import { routesConfig } from "@/config/routes";
+import { WhatsAppButton } from "@/components/ui/button";
 
 interface MarketingLayoutProps {
   children: React.ReactNode;
@@ -20,13 +21,13 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
             </div>
           </MainNav>
           <nav className="flex items-center gap-5">
-            <GitHubStarBadge />
             <ModeToggle />
           </nav>
         </div>
       </header>
       <main className="container flex-1">{children}</main>
       <SiteFooter />
+      <WhatsAppButton />
     </div>
   );
 }

@@ -66,6 +66,7 @@ export type ValidCategory =
   | "Full Stack"
   | "Frontend"
   | "Backend"
+  | "DevOps"
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"

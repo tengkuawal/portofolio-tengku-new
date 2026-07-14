@@ -1,6 +1,7 @@
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
 import * as React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { cn } from "@/lib/utils";
 
@@ -18,6 +19,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        whatsapp: "bg-green-500 text-white hover:bg-green-600 shadow-lg",
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -52,5 +54,30 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   }
 );
 Button.displayName = "Button";
+
+// 🐧WhatsAppButton dengan ukuran terpisah
+export function WhatsAppButton(){
+  const phoneNumber = "6283135068977"; 
+  const message = "Halo, saya tertarik dengan layanan Anda."; 
+
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
+  return (
+    <a
+      href={whatsappLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cn(
+       "fixed bottom-20 right-5 bg-green-500 text-white rounded-full shadow-2xl",
+       "w-14 h-14 flex items-center justify-center text-4xl",
+       "hover:scale-110 active:scale-105 transition-transform"
+      )}
+    >
+      <FaWhatsapp />
+    </a>
+  );
+}
 
 export { Button, buttonVariants };

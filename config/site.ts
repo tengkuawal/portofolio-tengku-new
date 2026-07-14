@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Tengku Awaluddin F - Application Security & Network Security:",
+  authorName: "Tengku Awaluddin F",
+  username: "tengkuawaluddinf",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+    "Tengku Awaluddin F - Application Security & Network Security Engineer. Explore my projects, experience, and contributions in software development and cybersecurity.",
   url: "https://nbarkiya.xyz",
   links: {
     twitter: "https://x.com/namanbarkiya",

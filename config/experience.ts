@@ -21,7 +21,7 @@ export const experiences: ExperienceInterface[] = [
     company: "UBS",
     location: "Mumbai, India",
     startDate: new Date("2024-08-01"),
-    endDate: "Present",
+     endDate: "Present",
     description: [
       "Shipped production features within the first month for a trader-facing P&L dashboard used by global stakeholders.",
       "Led the migration from Kendo UI to UBS’s internal design system to reduce UI inconsistencies and improve render performance.",

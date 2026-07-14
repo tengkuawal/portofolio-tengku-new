@@ -16,7 +16,7 @@ export default function GithubRedirectCard() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <CardContent className="p-8 flex flex-col items-center text-center">
+      {/* <CardContent className="p-8 flex flex-col items-center text-center">
         <div className="mb-6">
           <Heart
             className={`w-12 h-12 transition-colors duration-300 ease-out ${
@@ -44,7 +44,7 @@ export default function GithubRedirectCard() {
           <span className="mr-2">Source Code</span>
           <ExternalLink className="w-5 h-5" />
         </Link>
-      </CardFooter>
+      </CardFooter> */}
       <div
         className={`h-1 bg-gradient-to-r from-red-500 to-red-500 transition-all duration-300 ease-out ${
           isHovered ? "opacity-100" : "opacity-0"
