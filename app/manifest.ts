@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tengku Awaluddin F | Application Security & Network Security Engineer",
+    name: "Tengku Awaluddin F | Backend & Frontend Engineer",
     short_name: "Tengku Awaluddin F",
     description:
-      "Tengku Awaluddin F - Application Security & Network Security Engineer working at the intersection of cybersecurity and software development.",
+      "Tengku Awaluddin F - Backend & Frontend Engineer working across software development, APIs, and modern user interfaces.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

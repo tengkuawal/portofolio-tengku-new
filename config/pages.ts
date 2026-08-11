@@ -18,7 +18,7 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Tengku Awaluddin F's portfolio website.",
     },
   },
   skills: {
@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Tengku Awaluddin F's key skills that define his professional identity.",
     },
   },
   projects: {
@@ -35,7 +35,7 @@ export const pagesConfig: PagesConfig = {
     description: "Showcasing impactful projects and technical achievements.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description: "Tengku Awaluddin F's projects in building web applications.",
     },
   },
   contact: {
@@ -43,7 +43,7 @@ export const pagesConfig: PagesConfig = {
     description: "Let's connect and explore collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Tengku Awaluddin F.",
     },
   },
   contributions: {
@@ -52,25 +52,25 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Contributions",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Tengku Awaluddin F's open-source contributions and community involvement.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Tengku Awaluddin F's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Tengku Awaluddin F's resume.",
     },
   },
   blogs: {
     title: "Blogs",
     description:
-      "Thoughts on AI, software engineering, and building in public.",
+      "Thoughts on software engineering, web development, and building in public.",
     metadata: {
       title: "Blogs",
       description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+        "Tengku Awaluddin F's blog — thoughts on web development, software engineering, and building in public.",
     },
   },
   experience: {
@@ -79,7 +79,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Tengku Awaluddin F's professional journey and experience timeline.",
     },
   },
 };

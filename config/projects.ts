@@ -35,8 +35,8 @@ export const Projects: ProjectInterface[] = [
     category: ["DevOps", "Frontend", "UI/UX"],
     shortDescription:
       "Sebuah website portofolio pribadi yang minimalis, responsif, dan berperforma tinggi untuk menampilkan proyek, keahlian, dan perjalanan karier saya.",
-    websiteLink: "https://nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    websiteLink: "https://portofolio-tengku-new.vercel.app",
+    githubLink: "https://github.com/tengkuawal/portofolio-tengku-new",
     techStack: [
       "Next.js",
       "React",
@@ -70,32 +70,36 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
-    id: "Music",
-    companyName: "Music-RPL",
+    id: "aplikasi-kasir-restoran",
+    companyName: "Aplikasi Kasir Restoran",
     type: "Personal",
     category: ["Full Stack", "Backend", "Web Dev"],
     shortDescription:
-      "Music-RPL is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget. It features integrated analytics, secure multi-source ingestion and retrieval pipelines, and a focus on reliability and traceable answers.",
-    techStack: ["Next.js", "Laravel", "Node.js", "PHP", "Python"],
+      "Aplikasi Kasir Restoran (POS) berbasis web yang efisien untuk manajemen transaksi kasir, pengelolaan menu makanan & minuman, stok bahan, dan laporan penjualan.",
+    websiteLink: "https://tengkukasir.free.nf",
+    githubLink: "https://github.com/tengkuawal/pembuatan_aplikasi_kasir-_tengku_3",
+    techStack: ["PHP", "MySQL", "Javascript", "HTML 5", "CSS 3", "Bootstrap"],
     startDate: new Date("2026-07-08"),
     endDate: new Date("2027-09-01"),
-    companyLogoImg: "/projects/murpl/music.jpg",
+    companyLogoImg: "/projects/restaurant/kasir.jpg",
     pagesInfoArr: [
-      // {
-      //   title: "Ingestion & Retrieval",
-      //   description:
-      //     "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-      //   imgArr: ["/logo.png"],
-      // },
+      {
+        title: "Manajemen Kasir & Transaksi",
+        description:
+          "Antarmuka kasir cepat dan responsif untuk mengelola pemesanan pelanggan serta pencetakan bukti pembayaran.",
+        imgArr: ["/projects/restaurant/kasir.jpg"],
+      },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Music-RPL is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget.",
+        "Aplikasi Kasir Restoran adalah sistem manajemen Point of Sale (POS) berbasis web yang dirancang khusus untuk mempermudah operasional restoran dan kafe.",
+        "Sistem ini membantu kasir memproses pesanan dengan cepat, mengelola inventaris produk/menu, serta menghasilkan laporan transaksi penjualan harian hingga bulanan secara akurat.",
       ],
       bullets: [
-        "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-        "Implemented integrated analytics to track user interactions and improve chatbot performance.",
-        "Focused on reliability and traceable answers to ensure a high-quality user experience.",
+        "Pengelolaan menu makanan, minuman, dan kategori produk dengan penetapan harga dinamis.",
+        "Sistem transaksi kasir real-time dengan rekap otomatis dan histori pemesanan.",
+        "Integrasi laporan keuangan dan penjualan untuk analisis keuntungan bisnis.",
+        "Desain UI/UX yang responsif dan intuitif di berbagai perangkat desktop maupun tablet.",
       ],
     },
   },

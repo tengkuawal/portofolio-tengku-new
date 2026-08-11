@@ -1,14 +1,14 @@
 export const siteConfig = {
-  name: "Tengku Awaluddin F - Application Security & Network Security:",
+  name: "Tengku Awaluddin F - Backend & Frontend Engineer",
   authorName: "Tengku Awaluddin F",
   username: "tengkuawaluddinf",
   description:
-    "Tengku Awaluddin F - Application Security & Network Security Engineer. Explore my projects, experience, and contributions in software development and cybersecurity.",
-  url: "https://nbarkiya.xyz",
+    "Tengku Awaluddin F - Backend & Frontend Engineer. Explore my projects, experience, and contributions in software development.",
+  url: "https://portofolio-tengku-new.vercel.app",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
-    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    twitter: "https://x.com/tengkuawaluddinf",
+    github: "https://github.com/tengkuawal",
+    templateRepo: "https://github.com/tengkuawal/portofolio-tengku-new",
   },
   ogImage:
     "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
