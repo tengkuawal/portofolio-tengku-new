@@ -10,15 +10,15 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repo: "minimal-next-portfolio",
     contibutionDescription:
       "Open-source Next.js portfolio template. Trusted and forked by developers worldwide (130+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    repoOwner: "tengkuawal",
+    link: "https://github.com/tengkuawal/portofolio-tengku-new",
   },
   {
-    repo: "niya-saas-template",
+    repo: "aplikasi-kasir-restoran",
     contibutionDescription:
-      "Modern Next.js SaaS template. Production-ready starter for devs and AI startups (30+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/niya-saas-template",
+      "Aplikasi Kasir Restoran (POS) berbasis web untuk manajemen transaksi kasir, pengelolaan menu, dan laporan penjualan.",
+    repoOwner: "tengkuawal",
+    link: "https://github.com/tengkuawal/pembuatan_aplikasi_kasir-_tengku_3",
   },
   {
     repo: "autogen",
