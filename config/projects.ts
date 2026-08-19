@@ -45,6 +45,7 @@ export const Projects: ProjectInterface[] = [
       "Tailwind CSS",
       "Framer Motion",
       "Vercel",
+      
     ],
     startDate: new Date("2026-07-08"),
     endDate: new Date("2027-09-01"),
@@ -103,52 +104,40 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
-  {
-    id: "niya-saas-template",
-    companyName: "Niya SaaS Template (30+ GitHub stars)",
+
+    {
+    id: "penyerahan_hardcover_skripsi",
+    companyName: "Penyerahan Hardcover Skripsi",
     type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
+   category: ["Full Stack", "Backend", "Web Dev"],
     shortDescription:
-      "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
-    websiteLink: "https://niya.nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/niya-saas-template",
-    techStack: ["Next.js", "React", "Typescript", "Supabase", "Tailwind CSS"],
+      "Dokumentasi dan penyelesaian akhir proses akademik melalui penyerahan fisik hardcover skripsi yang telah selesai dicetak dan dijilid rapi.",
+    websiteLink: "",
+    githubLink: "https://github.com/tengkuawal/penyerahan_hardcover_skripsi",
+    techStack: ["Laravel", "PHP", "MySQL", "HTML 5"],
     startDate: new Date("2026-08-01"),
-    endDate: new Date("2027-01-01"),
-    companyLogoImg: "/projects/niya/logo.png",
+    endDate: new Date("2026-08-19"),
+    companyLogoImg: "/projects/skripsi/hardcover.png",
     pagesInfoArr: [
       {
-        title: "Landing Page",
+        title: "Cover & Pengesahan",
         description:
-          "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"]
-      },
-      {
-        title: "Authentication System",
-        description:
-          "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Dashboard & Components",
-        description:
-          "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
-        imgArr: ["/logo.png"],
+          "Halaman cover hardcover berwarna lengkap dengan logo kampus dan lembar pengesahan yang telah ditandatangani.",
+        imgArr: ["/projects/skripsi/hardcover.png"]
       },
     ],
     descriptionDetails: {
       paragraphs: [
-        "Niya is a production-ready Next.js 15 template designed for developers and AI startups. Built with modern best practices, it includes everything needed to build scalable SaaS applications.",
-        "The template features a complete authentication system with Supabase, beautiful UI components with Magic UI and Radix primitives, state management with Zustand and React Query, and full TypeScript support with Zod validation.",
-        "It's optimized for performance, includes SEO-friendly metadata, and provides a solid foundation for rapid prototyping and production deployment.",
+        "Tahap akhir dari penyelesaian tugas akhir/skripsi yang melibatkan proses cetak, penjilidan hardcover resmi, dan penyerahan fisik dokumen ke kampus.",
+        "Dokumen hardcover dibuat sesuai dengan standar format penulisan dan tata letak instansi, mencakup seluruh revisi, lembar pengesahan bertanda tangan, serta lampiran pendukung.",
+        "Penyerahan fisik ini menandai penyelesaian seluruh kewajiban akademik sebagai syarat kelulusan dan pengambilan ijazah.",
       ],
       bullets: [
-        "Created a production-ready Next.js 15 template with complete authentication system and protected routes.",
-        "Integrated Supabase for database, authentication, and real-time features with full TypeScript support.",
-        "Built comprehensive UI component library with Magic UI, Radix primitives, and Tailwind CSS styling.",
-        "Implemented state management with Zustand for client state and React Query for server state management.",
-        "Designed for developers and AI startups with all essential features to start building SaaS products.",
-        "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
+        "Menyelesaikan finalisasi draf skripsi dan format layout sesuai pedoman kampus.",
+        "Melakukan proses cetak dan penjilidan hardcover standar akademik.",
+        "Melengkapi lembar pengesahan resmi dari dosen pembimbing dan penguji.",
+        "Menyerahkan berkas hardcover fisik ke perpustakaan/sekretariat fakultas.",
+        "Mendapatkan bukti tanda terima penyerahan sebagai syarat bebas pustaka dan kelulusan.",
       ],
     },
   },
