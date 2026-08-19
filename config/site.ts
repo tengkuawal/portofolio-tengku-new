@@ -8,6 +8,7 @@ export const siteConfig = {
   links: {
     twitter: "https://x.com/tengkuawaluddinf",
     github: "https://github.com/tengkuawal",
+    linkedin: "https://www.linkedin.com/in/tengku-awaluddin-fachri-54a44142b",
     templateRepo: "https://github.com/tengkuawal/portofolio-tengku-new",
   },
   ogImage:

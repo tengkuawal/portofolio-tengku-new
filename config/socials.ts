@@ -14,6 +14,12 @@ export const SocialLinks: SocialInterface[] = [
     icon: Icons.gitHub,
     link: "https://github.com/tengkuawal",
   },
+  {
+    name: "LinkedIn",
+    username: "tengku-awaluddin-fachri",
+    icon: Icons.linkedin,
+    link: "https://www.linkedin.com/in/tengku-awaluddin-fachri-54a44142b",
+  },
 
   {
     name: "Twitter",
