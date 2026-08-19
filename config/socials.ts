@@ -23,8 +23,8 @@ export const SocialLinks: SocialInterface[] = [
   },
   {
     name: "Gmail",
-    username: "naman.barkiya02",
+    username: "tngkuawluddinfhri",
     icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "mailto:tngkuawluddinfhri@gmail.com",
   },
 ];
