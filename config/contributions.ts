@@ -21,11 +21,11 @@ export const contributionsUnsorted: contributionsInterface[] = [
     link: "https://github.com/tengkuawal/pembuatan_aplikasi_kasir-_tengku_3",
   },
   {
-    repo: "autogen",
+    repo: "skripsi-ta",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+     "Pembangunan Aplikasi/Sistem Informasi berbasis Web yang telah selesai diserahkan dalam bentuk dokumen hardcover resmi.",
+    repoOwner: "tengkuawal",
+    link: "https://github.com/tengkuawal/penyerahan_hardcover_skripsi",
   },
 ];
 

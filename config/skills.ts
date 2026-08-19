@@ -12,58 +12,34 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Next.js",
     description:
       "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
+    rating: 3,
     icon: Icons.nextjs,
   },
+
   {
-    name: "React",
+    name: "Laravel",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+      "The PHP framework for web artisans, offering powerful routing, elegant ORM, robust authentication, and built-in API support.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.laravel,
   },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
+
   {
     name: "Node.js",
     description:
       "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
+    rating: 2,
     icon: Icons.nodejs,
   },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
+ 
   {
     name: "Typescript",
     description:
       "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+    rating: 4,
     icon: Icons.typescript,
   },
+
   {
     name: "Javascript",
     description:
@@ -85,41 +61,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.css3,
   },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
+
 
   {
     name: "Tailwind CSS",
@@ -128,13 +70,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.tailwindcss,
   },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
+
   {
     name: "Bootstrap",
     description:
@@ -146,7 +82,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 4,
     icon: Icons.mysql,
   },
   {
