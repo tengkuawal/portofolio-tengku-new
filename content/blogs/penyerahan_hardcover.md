@@ -3,7 +3,7 @@ title: "Persyaratan Tugas Akhir & Skripsi Areta Informatics College"
 date: "2026-08-21"
 description: "Informasi resmi mengenai persyaratan administrasi, akademik, dan kelengkapan berkas untuk pengajuan Tugas Akhir dan Skripsi di Areta Informatics College."
 tags: ["Akademik", "Tugas Akhir", "Skripsi", "Areta", "Administrasi"]
-coverImage: "/hardcover_book/hardcover.png"
+coverImage: "/projects/areta/hardcover_book.png"
 featured: true
 readingTime: 4
 ---
